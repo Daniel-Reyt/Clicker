@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS ClickerDB;
+CREATE DATABASE ClickerDB;
+USE ClickerDB;
+
+CREATE TABLE Users (
+    id_user INT NOT NULL AUTO_INCREMENT,
+	username VARCHAR(25) NOT NULL,
+	password VARCHAR(30) NOT NULL,
+	PRIMARY KEY (id_user)
+);
